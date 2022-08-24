@@ -2,8 +2,8 @@
 import { ref } from "vue";
 import MdiGithub from "~icons/mdi/github";
 import MdiInstagram from "~icons/mdi/instagram";
-import MdiDiscord from "~icons/mdi/discord";
 import Typing from "../components/Typing.vue";
+import MdiDiscord from "~icons/mdi/discord";
 
 let T = ref(0);
 let timer_id = setInterval(() => {
@@ -35,7 +35,7 @@ let timer_id = setInterval(() => {
             <MdiInstagram class="mr-1 inline-block" />
             <Typing v-if="T > 2000" text="Instagram" :speed="60" />
         </a>
-        <a
+         <a
             v-if="T > 2000"
             class="mt-4 flex items-center text-lg text-gray-500 transition-all hover:text-gray-700"
             href="https://discord.gg/kfxtBCCw7G"
