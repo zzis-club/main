@@ -1,8 +1,7 @@
 <script setup>
 const links = [
-    { text: "Me", url: "/" },
-    { text: "About", url: "/about" },
-    { text: "Projects", url: "/projects" },
+    { text: "主頁面", url: "/" },
+    { text: "關於我們", url: "/about" },
 ];
 </script>
 
@@ -52,8 +51,8 @@ const links = [
                 v-if="$route.path !== '/about'"
             >
                 <img
-                    src=""
-                    class="w-full translate-y-12 scale-[180%] transition-all duration-200 hover:rounded-xl hover:pt-5 md:translate-y-14 md:hover:pt-7"
+                    src="https://cdn.discordapp.com/attachments/984715679682949130/1011856683405946890/home.png"
+                    class="h-full w-full"
                 />
             </div>
         </transition>
