@@ -1,7 +1,7 @@
 <script setup>
 const links = [
-    { text: "主頁面", url: "/main/" },
-    { text: "關於我們", url: "/main/about" },
+    { text: "主頁面", url: "/" },
+    { text: "關於我們", url: "/about" },
 ];
 </script>
 
