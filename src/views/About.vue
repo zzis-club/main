@@ -24,6 +24,7 @@ let timer_id = setInterval(() => {
 
 <template>
     <div class="h-full w-full px-8 pt-8 sm:px-12 sm:pt-12 lg:px-16 lg:pt-16">
-        <Typing text="About Me" class="mb-8 block text-2xl sm:text-3xl lg:text-4xl" />
+        <Typing text="關於我們" class="mb-8 block text-2xl sm:text-3xl lg:text-4xl" />
+        <Typing v-if="T > 1200" text="學弟妹 加資研!!!" :speed="60" />
     </div>
 </template>
